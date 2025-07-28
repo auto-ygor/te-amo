@@ -38,7 +38,7 @@ article{
 
 h1{
   margin: 22px;
-  font-size: clamp(1.7rem, 6vw, 2.5rem);
+  font-size: clamp(1.5rem, 6vw, 2.5rem);
 }
 
 @media screen and (max-width: 848px){
