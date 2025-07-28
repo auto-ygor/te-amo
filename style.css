@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2b6c1;
+}
+
+article, body{
+  display: flex;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Alex Brush", cursive;
+    background-color: #283040;
+}
+
+article{
+    font-family: "Lora", serif;
+    background-color: #8c3a60;
+    border-radius: 20px;
+    box-shadow:  #f2b6c14c 0px 7px 29px 0px;
+    margin: 30px;
+    height: 40vh; 
+    width: 110vh; 
+}
+
+#imagem-1{
+    width: 35vh;
+    height: 40vh;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+h1{
+  margin: 22px;
+}
