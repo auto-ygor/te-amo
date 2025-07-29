@@ -8,32 +8,41 @@
   color: #f2b6c1;
 }
 
-article, body{
+article, body, div{
   display: flex;
 }
 
 body{
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     font-family: "Alex Brush", cursive;
     background-color: #283040;
 }
 
+.texto-card, body{
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-card h4{
+  margin: 20px;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+}
+
 article{
     font-family: "Lora", serif;
+    text-align: center;
     background-color: #8c3a60;
     border-radius: 20px;
     box-shadow:  #f2b6c14c 0px 7px 29px 0px;
     margin: 30px;
     height: 40vh; 
-    width: 110vh; 
+    width: 110vh;
 }
 
-#imagem-1{
-    width: 37vh;
-    height: 40vh;
+img{
     border-radius: 20px;
+    width: 40vh;
+    height: 40vh;
 }
 
 h1{
@@ -48,7 +57,11 @@ h1{
     flex-direction: column;
   }
 
-  #imagem-1{
+  img{
     width: 38vh;
+  }
+
+  .texto-card{
+    height: 31vh;
   }
 }
