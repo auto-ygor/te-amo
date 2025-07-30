@@ -52,6 +52,12 @@ h1{
 
 @media screen and (max-width: 848px){
   article{
+    width: 85vh;
+  }
+}
+
+@media screen and (max-width: 692px){
+  article{
     width: 38vh;
     height: 74vh;
     flex-direction: column;
